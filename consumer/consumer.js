@@ -11,4 +11,5 @@ const amqp = require("amqplib");async function connect() {
     } catch (ex) {
       console.error(ex);
     }
-   }connect();
+   }
+  connect();
